@@ -1,0 +1,261 @@
+body{
+    min-width: 320px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.form-check{
+     margin-bottom: 1rem;
+ }
+
+.formRegistration{
+    margin-top: 150px;
+}
+
+h4{
+    margin-bottom: 40px;
+}
+
+.myDiv{
+    border: 1px solid #dee2e6!important;
+    overflow: auto;
+}
+
+.fa-download{
+    color: red;
+}
+
+.myDiv:hover{
+    background-color: #96ffe0;
+}
+
+.row-cols-5:hover{
+    background-color: #c7fff3;
+}
+
+.hovers{
+    cursor: pointer;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.myRed{
+    color: red!important;
+}
+
+.myBorders1{
+    border-radius: 20px 0 0 0;
+}
+
+.myBorders2{
+    border-radius: 0 20px 0 0;
+}
+
+.row-cols-5.myRow{
+    border-radius: 20px 20px 0 0;
+}
+
+.header-h1 {
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.btn.margin-top{
+    margin-top: 51.2px!important;
+}
+.header-h1::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #c62828;
+    border-bottom: 2px solid #c62828;
+    height: .375rem;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: -999;
+}
+.header-h1 h1 {
+    font-size: 1.5rem;
+    color: #c62828;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 0;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+.header-h1-center {
+    text-align: center;
+}
+.header-h1-center h1 {
+    padding-left: 1rem;
+}
+
+.margin-15{
+    margin-top: 2rem;
+}
+
+small, label{
+    font-size: 0.8rem;
+}
+
+#passwordHelpBlock.hidden{
+    display: none;
+}
+
+#loginHelpBlock.hidden{
+    display: none;
+}
+
+@media screen and (max-width: 350px){
+
+    body{
+        font-size: 0.4rem;
+    }
+
+    .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        display: block;
+        font-size: 0.8rem;
+        padding: .1rem .25rem;
+    }
+    .dropdown-menu{
+        font-size: 0.8rem;
+    }
+
+    .fas{
+        font-size: 0.4rem;
+    }
+
+    .navbar {
+        padding: 0rem 1rem;
+    }
+
+    .navbar-toggler {
+        font-size: 0.5rem;
+    }
+
+    .header-h1 h1{
+        font-size: 0.7rem;
+    }
+
+    .margin-15{
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width:350px) and (max-width:600px){
+
+    body{
+        font-size: 0.6rem;
+    }
+
+    .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        display: block;
+        font-size: 0.8rem;
+        padding: .1rem .25rem;
+    }
+
+    .dropdown-menu{
+        font-size: 0.8rem;
+    }
+
+    .fas{
+        font-size: 0.4rem;
+    }
+
+    .navbar {
+        padding: 0rem 1rem;
+    }
+
+    .navbar-toggler {
+        font-size: 0.5rem;
+    }
+
+    .header-h1 h1{
+        font-size: 0.8rem;
+    }
+
+    .margin-15{
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:900px){
+
+    body{
+        font-size: 0.7rem;
+    }
+
+    .navbar-brand{
+        font-size: 1.15rem;
+    }
+
+    .nav-link {
+        display: block;
+        font-size: 0.9rem;
+        padding: .1rem .25rem;
+    }
+
+    .dropdown-menu{
+        font-size: 0.9rem;
+    }
+
+    .fas{
+        font-size: 0.6rem;
+    }
+
+    .navbar {
+        padding: 0rem 1rem;
+    }
+
+    .navbar-toggler {
+        font-size: 0.6rem;
+    }
+
+    .header-h1 h1{
+        font-size: 1rem;
+    }
+
+
+}
+
+@media (min-width:900px) and (max-width:1100px){
+    .fas{
+        font-size: 0.8rem;
+    }
+}
+
+
